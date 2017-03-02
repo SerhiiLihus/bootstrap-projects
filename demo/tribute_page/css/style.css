@@ -1,0 +1,74 @@
+body {
+  background: #ffff80;
+}
+
+.container {
+ width: 80%;  
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h1, h2 {
+  word-wrap: break-word;  
+}
+
+.header {
+ width: 80%;  
+}
+
+img {
+  width: 100%;
+}
+
+.header p {
+  padding: 20px 0 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.caption {
+  background: #fff;
+}
+
+.caption small {
+  font-weight: normal;
+}
+
+.main {  
+  width: 80%;
+  margin: 10px auto;
+}
+
+ul {
+  margin: 20px auto;
+  line-height: 3em;
+}
+
+ul li {
+  font-size: 1.5em;
+}
+
+blockquote {
+  border: none;
+}
+
+blockquote p {
+  font-size: 2em;
+}
+
+blockquote footer {
+  font-size: 1.5em;
+}
+
+.info {
+  width: 90%;
+  margin: 30px auto;
+  font-size: 2em;
+}
