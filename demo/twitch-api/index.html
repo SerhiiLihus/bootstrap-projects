@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitch API project</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="../../vendor/js/jquery.min.js"></script>
+    
+</head>
+<body>
+<div class="container">
+    <div id="body" class="col-lg-offset-2 col-sm-offset-2 col-lg-8 col-sm-8 col-xs-12">
+        <div class="filter-header">
+            <div id="buttons">
+                <p data-status="all" class="arrow selected">All</p><p data-status="online" class="arrow online">Online</p><p data-status="offline" class="arrow offline">Offline</p>
+            </div>
+            <div id="search-field"><input id="search" type="text" /></div>
+        </div>
+        <div id="list-of-channels">
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
