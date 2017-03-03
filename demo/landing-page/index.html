@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Landing page</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header navbar-left">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-dropdown" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a class="nav navbar-brand" href="#">Your name</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-dropdown">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="##home">Home</a></li>
+                        <li><a href="##about">About</a></li>
+                        <li><a href="##portfolio">Portfolio</a></li> 
+                        <li><a href="##contact">Contact</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div id="#home" class="row home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <h1>Web Development Studio</h1>
+                        <h3>Where Awesomeness Is Brought To Life</h3>
+                        <hr>
+                        <div class="logos">
+                            <div class="linkedin">
+                                <a target="_blank" href="#" title="linkedin Profile"><span class="fa fa-linkedin"></span></a>
+                            </div>
+                            <div class="google">
+                                <a target="_blank" href="#" title="google+ Profile"><span class="fa fa-google-plus"></span></a>
+                            </div>
+                            <div class="github">
+                                <a target="_blank" href="#" title="github Profile"><span class="fa fa-github"></span></a>
+                            </div>
+                            <div class="codecamp">
+                                <a target="_blank" href="#" title="free code camp profile"><span class="fa fa-fire"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-overlay"></div>
+        </div>
+        <div id="#about" class="row about">
+            <div class="container">
+                <div class="col-lg-6 col-sm-12 col-xs-12 personal-info">
+                    <p>Your Description</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12">
+                    <img class="personal-photo" src="#">
+                </div>
+            </div>
+            <div class="shadow-overlay"></div>
+        </div>
+        <div id="#portfolio" class="row portfolio">
+            <div class="row">
+                <div class="container inner-padding">
+                    <div class="owl-carousel">
+                        <div><img src="" alt="#"></div>
+                        <div><img src="" alt="#"></div>
+                        <div><img src="" alt="#"></div>
+                        <div><img src="" alt="#"></div>
+                        <div><img src="" alt="#"></div>
+                        <div><img src="" alt="#"></div>
+                        <div><img src="" alt="#"></div>
+                    </div>
+                </div>
+            </div>
+             <div class="shadow-overlay"></div>
+        </div>
+        <div id="#contact" class="row contact">
+            <form class="form-horizontal col-sm-offset-1 col-md-offset-1 col-lg-offset-2 col-sm-10 col-md-10 col-lg-8 inner-padding" action="" method="GET">
+                <div class="form-group">
+                    <div class="col-sm-12 col-md-12 col-lg-12 contacts">
+                        <h3>Contact Details</h3>
+                        <ul class="contact-info">
+                            <li class="phone-life"><a href="telnumber:">first phone number</a></li>
+                            <li class="phone-mts"><a href="tel:number">second phone number</a></li>
+                            <li class="mail"><a href="mailto:yourEmail@mail.com">yourEmail@mail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <input name="email" type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <textarea class="form-control" rows="8" placeholder="Enter your message"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-md-12 col-lg-12 new-style">
+                        <button id="sendMessage" class="btn btn-default col-xs-12 col-md-12 col-lg-12" data-toggle="modal" data-target="#modalMessage">Send Message</button>
+                    </div>
+                </div>
+            </form>
+            <div class="shadow-overlay"></div>
+        </div>
+    </div>
+    <div class="to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>
+</div>
+<div id="modalMessage" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+                <button id="closeModal" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
